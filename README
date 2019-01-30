@@ -1,0 +1,20 @@
+stest - filter a file list by properties
+====================
+stest  takes  a  list  of  files  and filters by the files' properties,
+analogous to test(1).  Files which pass all tests are printed to stdout. If no
+files  are  given, stest reads files from stdin.
+
+This is meant to be a replacement of the stest tool included with dmenu, for use
+with alternative versions of dmenu.
+
+Installation
+------------
+Enter the following command to build and install stest
+(if necessary as root):
+
+    make clean install
+
+
+Running stest
+-------------
+See the man page for details.
